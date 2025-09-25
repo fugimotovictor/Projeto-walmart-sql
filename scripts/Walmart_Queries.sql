@@ -37,7 +37,7 @@ Passo a passo:
 8. Clique em Next e depois Finish.
 9. O Workbench irá carregar todos os dados para a tabela.
 
-------- Traduzir variáveis categóricas e numéricas para padrão brasileiro --------
+------- Traduzir variáveis categóricas para Português Brasileiro --------
 
 -- TIPOS DE CLIENTE
 UPDATE vendas
