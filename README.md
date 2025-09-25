@@ -58,7 +58,8 @@ O dataset contém **17 colunas** e **1000 linhas**:
 **1. Preparação de Dados (Data Wrangling)**  
 - Criação do banco de dados e tabelas.  
 - Inserção dos dados.  
-- Checagem de valores nulos (não presentes devido ao uso de `NOT NULL`).  
+- Checagem de valores nulos (não presentes devido ao uso de `NOT NULL`).
+- Traduzir variáveis categóricas para o Português Brasileiro 
 
 **2. Engenharia de Atributos (Feature Engineering)**  
 - `time_of_day`: Classifica vendas em **Manhã, Tarde ou Noite**.  
@@ -85,7 +86,7 @@ O dataset contém **17 colunas** e **1000 linhas**:
 6. Qual linha de produto gerou mais receita?  
 7. Qual cidade gerou mais receita?  
 8. Qual linha de produto teve maior imposto (VAT)?  
-9. Criar coluna `product_category` classificando cada linha como "Boa" ou "Ruim" em relação à média.  
+9. Criar coluna `categoria_produto` classificando cada linha como "Boa" ou "Ruim" em relação à média.  
 10. Qual filial vendeu mais produtos que a média?  
 11. Qual é a linha de produtos mais comum por gênero?  
 12. Qual a avaliação média por linha de produto?  
